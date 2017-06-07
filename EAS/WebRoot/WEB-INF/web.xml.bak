@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>EAS</display-name>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentLogin</servlet-name>
+    <servlet-class>com.mhh.controller.StudentLogin</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveSeesion</servlet-name>
+    <servlet-class>com.mhh.controller.RemoveSeesion</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterPassword</servlet-name>
+    <servlet-class>com.mhh.controller.alterPassword</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherLogin</servlet-name>
+    <servlet-class>com.mhh.controller.TeacherLogin</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.mhh.controller.AdminLogin</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCourse</servlet-name>
+    <servlet-class>com.mhh.controller.AddCourse</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStudent</servlet-name>
+    <servlet-class>com.mhh.controller.AddStudent</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTeacher</servlet-name>
+    <servlet-class>com.mhh.controller.AddTeacher</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdmin</servlet-name>
+    <servlet-class>com.mhh.controller.AddAdmin</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAdmin</servlet-name>
+    <servlet-class>com.mhh.controller.UpdateAdmin</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>StudentLogin</servlet-name>
+    <url-pattern>/StudentLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>RemoveSeesion</servlet-name>
+    <url-pattern>/RemoveSeesion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>alterPassword</servlet-name>
+    <url-pattern>/alterPassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>TeacherLogin</servlet-name>
+    <url-pattern>/TeacherLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AddCourse</servlet-name>
+    <url-pattern>/AddCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddStudent</servlet-name>
+    <url-pattern>/AddStudent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddTeacher</servlet-name>
+    <url-pattern>/AddTeacher</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AddAdmin</servlet-name>
+    <url-pattern>/AddAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UpdateAdmin</servlet-name>
+    <url-pattern>/UpdateAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
